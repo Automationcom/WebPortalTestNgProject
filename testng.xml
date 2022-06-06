@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI TEST Suite">
+  <test  name="FUNCTIONAL TESTING">
+    <classes>
+      <class name="ui.SkipDemoTest"/>
+      <class name="ui.LoginTest"/>
+      <class name="ui.verifyTittleTest"/>
+      <class name="ui.GroupDemoTest2"/>
+      <class name="ui.GroupDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
