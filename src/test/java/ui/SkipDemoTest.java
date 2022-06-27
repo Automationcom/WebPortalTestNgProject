@@ -10,11 +10,13 @@ public class SkipDemoTest {
 	public void skipTest1() {
 		System.out.println("Skipping this as it is not complete");
 	}
+	
 	@Test
 	public void skipTest2() {
 		System.out.println("Skipping this forcefully");
 		throw new SkipException("Skipping this Test");
 	}
+	
 	@Test
 	public void skipTest3() {
 		System.out.println("Skipping this test bassend on the codition");
